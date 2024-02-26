@@ -5,182 +5,84 @@
       "name": "Om Thummar",
       "email": "omthummar260802@gmail.com",
       "country": "india",
-      "lastUpdate": "Sun Feb 25 2024 14:49:09 GMT+0530 (India Standard Time)"
+      "lastUpdate": "2024-02-26T07:04:46.654Z",
+      "isDeleted": false
     },
     {
-      "id": "2",
-      "name": "Virat Kohli",
-      "email": "vk260802@gmail.com",
-      "country": "india",
-      "lastUpdate": "Sun Feb 25 2024 14:49:09 GMT+0530 (India Standard Time)"
+      "value": {
+        "id": "2",
+        "name": "Virat Kohli",
+        "email": "vk260802@gmail.com",
+        "country": "india",
+        "lastUpdate": "Sun Feb 25 2024 14:49:09 GMT+0530 (India Standard Time)",
+        "isDeleted": false
+      },
+      "isDeleted": true,
+      "id": "2"
     },
     {
       "id": "3",
       "name": "Om Thummar",
       "email": "omthummar260802@gmail.com",
       "country": "india",
-      "lastUpdate": "Sun Feb 25 2024 14:49:09 GMT+0530 (India Standard Time)"
+      "lastUpdate": "Sun Feb 25 2024 14:49:09 GMT+0530 (India Standard Time)",
+      "isDeleted": false
     },
     {
-      "id": "4",
-      "name": "Virat Kohli",
-      "email": "vk260802@gmail.com",
-      "country": "india",
-      "lastUpdate": "Sun Feb 25 2024 14:49:09 GMT+0530 (India Standard Time)"
-    },
-    {
-      "id": "5",
-      "name": "Om Thummar",
-      "email": "omthummar260802@gmail.com",
-      "country": "india",
-      "lastUpdate": "Sun Feb 25 2024 14:49:09 GMT+0530 (India Standard Time)"
-    },
-    {
-      "id": "6",
-      "name": "Virat Kohli",
-      "email": "vk260802@gmail.com",
-      "country": "india",
-      "lastUpdate": "Sun Feb 25 2024 14:49:09 GMT+0530 (India Standard Time)"
-    },
-    {
-      "id": "7",
-      "name": "Om Thummar",
-      "email": "omthummar260802@gmail.com",
-      "country": "india",
-      "lastUpdate": "Sun Feb 25 2024 14:49:09 GMT+0530 (India Standard Time)"
-    },
-    {
-      "id": "8",
-      "name": "Virat Kohli",
-      "email": "vk260802@gmail.com",
-      "country": "india",
-      "lastUpdate": "Sun Feb 25 2024 14:49:09 GMT+0530 (India Standard Time)"
-    },
-    {
-      "id": "9",
-      "name": "Om Thummar",
-      "email": "omthummar260802@gmail.com",
-      "country": "india",
-      "lastUpdate": "Sun Feb 25 2024 14:49:09 GMT+0530 (India Standard Time)"
-    },
-    {
-      "id": "10",
-      "name": "Virat Kohli",
-      "email": "vk260802@gmail.com",
-      "country": "india",
-      "lastUpdate": "Sun Feb 25 2024 14:49:09 GMT+0530 (India Standard Time)"
-    },
-    {
-      "id": "11",
-      "name": "Om Thummar",
-      "email": "omthummar260802@gmail.com",
-      "country": "india",
-      "lastUpdate": "Sun Feb 25 2024 14:49:09 GMT+0530 (India Standard Time)"
-    },
-    {
-      "id": "12",
-      "name": "Virat Kohli",
-      "email": "vk260802@gmail.com",
-      "country": "india",
-      "lastUpdate": "Sun Feb 25 2024 14:49:09 GMT+0530 (India Standard Time)"
-    },
-    {
-      "id": "13",
-      "name": "Om Thummar",
-      "email": "omthummar260802@gmail.com",
-      "country": "india",
-      "lastUpdate": "Sun Feb 25 2024 14:49:09 GMT+0530 (India Standard Time)"
-    },
-    {
-      "id": "14",
-      "name": "Virat Kohli",
-      "email": "vk260802@gmail.com",
-      "country": "india",
-      "lastUpdate": "Sun Feb 25 2024 14:49:09 GMT+0530 (India Standard Time)"
-    },
-    {
-      "id": "15",
-      "name": "Om Thummar",
-      "email": "omthummar260802@gmail.com",
-      "country": "india",
-      "lastUpdate": "Sun Feb 25 2024 14:49:09 GMT+0530 (India Standard Time)"
-    },
-    {
-      "id": "16",
-      "name": "Virat Kohli",
-      "email": "vk260802@gmail.com",
-      "country": "india",
-      "lastUpdate": "Sun Feb 25 2024 14:49:09 GMT+0530 (India Standard Time)"
-    },
-    {
-      "id": "17",
-      "name": "Om Thummar",
-      "email": "omthummar260802@gmail.com",
-      "country": "india",
-      "lastUpdate": "Sun Feb 25 2024 14:49:09 GMT+0530 (India Standard Time)"
-    },
-    {
-      "id": "18",
-      "name": "Virat Kohli",
-      "email": "vk260802@gmail.com",
-      "country": "india",
-      "lastUpdate": "Sun Feb 25 2024 14:49:09 GMT+0530 (India Standard Time)"
-    },
-    {
-      "id": "0d6d",
-      "name": "fsadfsda",
-      "email": "fasfasd@gmail.com",
-      "country": "fsfsdfasdf",
-      "lastUpdate": "2024-02-25T12:27:27.139Z"
-    },
-    {
-      "id": "86e0",
-      "name": "pkpkpkpkp",
-      "email": "ppkpkpkkp@gmail.com",
-      "country": "china",
-      "lastUpdate": "2024-02-25T12:33:40.563Z"
-    },
-    {
-      "id": "fe6a",
-      "name": "qqqqqqqqqqqqq",
-      "email": "qqqqqqqqqqqq@gmail.com",
-      "country": "qatar",
-      "lastUpdate": "2024-02-25T12:34:21.381Z"
-    },
-    {
-      "id": "4e2f",
-      "name": "ddddddddddd",
-      "email": "ddddddddd@gmail.com",
-      "country": "dfsf",
-      "lastUpdate": "2024-02-25T12:47:44.455Z"
-    },
-    {
-      "id": "a334",
-      "name": "fsfs",
-      "email": "ddddddddd@gmail.com",
-      "country": "dfsf",
-      "lastUpdate": "2024-02-25T12:53:37.578Z"
-    },
-    {
-      "id": "cb6c",
-      "name": "vvvvvv",
-      "email": "vvvv@gmail.com",
-      "country": "vietnam",
-      "lastUpdate": "2024-02-25T13:25:54.290Z"
-    },
-    {
-      "id": "3842",
-      "name": "meet",
-      "email": "meet@gmail.com",
-      "country": "india",
-      "lastUpdate": "2024-02-25T15:09:34.190Z"
-    },
-    {
-      "id": "8d43",
-      "name": "manan",
+      "id": "bf26",
+      "name": "om thummar erawe",
       "email": "fsdafsdf@gmail.com",
-      "country": "india",
-      "lastUpdate": "2024-02-25T16:52:54.900Z"
+      "country": "fsda",
+      "lastUpdate": "2024-02-25T20:48:22.586Z",
+      "isDeleted": true
+    },
+    {
+      "id": "5501",
+      "name": "fasfsdfs",
+      "email": "fsadfasd@gmail.com",
+      "country": "fsafdsfsadf",
+      "lastUpdate": "2024-02-25T20:55:13.744Z",
+      "isDeleted": true
+    },
+    {
+      "value": {
+        "id": "d348",
+        "name": "jhlkh",
+        "email": "uigikljk@gmail.com",
+        "country": "jhlkj",
+        "lastUpdate": "2024-02-25T21:53:19.973Z",
+        "isDeleted": false
+      },
+      "isDeleted": true,
+      "id": "d348"
+    },
+    {
+      "value": {
+        "id": "4a34",
+        "name": "manan",
+        "email": "diyora@gmail.com",
+        "country": "hyd city",
+        "lastUpdate": "2024-02-26T07:06:06.567Z",
+        "isDeleted": false
+      },
+      "isDeleted": true,
+      "id": "4a34"
+    },
+    {
+      "id": "9526",
+      "name": "hey there",
+      "email": "heythere@gmail.com",
+      "country": "vientnam hanoi",
+      "lastUpdate": "2024-02-26T07:09:21.778Z",
+      "isDeleted": false
+    },
+    {
+      "id": "3adb",
+      "name": "dhrubil bikariya",
+      "email": "db@gmail.com",
+      "country": "aecs layout arcade inn",
+      "lastUpdate": "2024-02-26T07:22:51.127Z",
+      "isDeleted": false
     }
   ]
 }

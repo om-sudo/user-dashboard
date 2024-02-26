@@ -1,20 +1,10 @@
 "use client"
 
 import { ColumnDef } from "@tanstack/react-table"
-import { ArrowUpDown, MoreHorizontal } from "lucide-react" 
+import { ArrowUpDown } from "lucide-react" 
 import { Button } from "@/components/ui/button"
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-
+import DeleteUserDetailModal from "@/components/delete-user-detail-Modal"
 import UpdateUserDetailModal from "@/components/update-user-detail-Modal"
-// This type is used to define the shape of our data.
-// You can use a Zod schema here if you want.
 export type User = {
   id: string
   name: string
@@ -66,30 +56,23 @@ export const columns: ColumnDef<User>[] = [
     }
   },
   {
-    id: "actions",
+    id: "delete",
+    header:"delete",
     cell: ({ row }) => {
-      const user = row.original
+      const user = row.original;
  
       return (
-        <DropdownMenu>
-          <DropdownMenuTrigger asChild>
-            <Button variant="ghost" className="h-8 w-8 p-0">
-              <span className="sr-only">Open menu</span>
-              <MoreHorizontal className="h-4 w-4" />
-            </Button>
-          </DropdownMenuTrigger>
-          <DropdownMenuContent align="end">
-            <DropdownMenuLabel>Actions</DropdownMenuLabel>
-            <DropdownMenuItem onClick={() => {
-                console.log(user);
-              //  return(<UpdateUserDetailModal value={user}/>);
-            }}>
-              update User
-            </DropdownMenuItem>
-            <DropdownMenuSeparator />
-            <DropdownMenuItem>delete User</DropdownMenuItem>
-          </DropdownMenuContent>
-        </DropdownMenu>
+        <DeleteUserDetailModal value={user}/>
+      )
+    },
+  },
+  {
+    id: "update",
+    header:"update",
+    cell: ({ row }) => {
+      const user = row.original;
+      return (
+        <UpdateUserDetailModal value={user}/>
       )
     },
   },

@@ -34,12 +34,12 @@ const AddUserDetailModal = () => {
 
       const queryClient = useQueryClient();
      
-      const {mutate, isError,error,isPending,reset} = useMutation({
+      const {mutate} = useMutation({
         mutationFn: addUser,
         onMutate: () => {
             return {id : 1}
         },
-        onSuccess: (data,variables,context) => {
+        onSuccess: () => {
             queryClient.invalidateQueries({
                 queryKey:['users'],
                 exact: true,
