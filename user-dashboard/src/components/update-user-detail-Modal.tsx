@@ -13,55 +13,55 @@ import {
 
 import { Button } from "./ui/button";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
-import { addUser } from "@/api/api";
+import { updateUser } from "@/api/api";
 import { useState } from "react";
-
+import { UpdateIcon } from "@radix-ui/react-icons";
 import DetailForm from "./user-detail-form"
 import { formSchema } from "./user-detail-form.config";
   
-const UpdateUserDetailModal = (value) => {
+const UpdateUserDetailModal = ({value}) => {
 
-    console.log(value,"hello");
-    const [isDialogOpen,setIsDialogOpen] = useState<boolean>(true);
+    const [isDialogOpen,setIsDialogOpen] = useState<boolean>(false);
 
     const form = useForm<z.infer<typeof formSchema>>({
         resolver: zodResolver(formSchema),
         defaultValues: {
-            name: "",
-            email: "",
-            country: "",
-        },
+            name: value.name,
+            email: value.email,
+            country: value.country,
+        },  
       })
 
-    //   const queryClient = useQueryClient();
+      const queryClient = useQueryClient();
      
-    //   const {mutate, isError,error,isPending,reset} = useMutation({
-    //     mutationFn: addUser,
-    //     onMutate: () => {
-    //         return {id : 1}
-    //     },
-    //     onSuccess: (data,variables,context) => {
-    //         queryClient.invalidateQueries({
-    //             queryKey:['users'],
-    //             exact: true,
-    //         })
-    //     }
-    //   })
+      const {mutate} = useMutation({
+        mutationFn: updateUser,
+        onMutate: () => {
+            return {id : 1}
+        },
+        onSuccess: () => {
+            queryClient.invalidateQueries({
+                queryKey:['users'],
+                exact: true,
+            })
+        }
+      })
 
     function onSubmit(values: z.infer<typeof formSchema>) {
-        console.log(values);
-        // const currentTime = new Date();
-        // const valueToAdd = {...values,"lastUpdate" : currentTime};
-        // mutate(valueToAdd);
-        // setIsDialogOpen(false);
+        const currentTime = new Date();
+        const valueToAdd = {...value,...values,"lastUpdate" : currentTime};
+        mutate(valueToAdd);
+        setIsDialogOpen(false);
       }  
+
     return(
-    <Dialog open={isDialogOpen} onOpenChange={(open) => setIsDialogOpen(open)} defaultOpen={true}>
+    <Dialog open={isDialogOpen} onOpenChange={(open) => setIsDialogOpen(open)}>
      <DialogTrigger asChild>
+        <Button variant="ghost" size="icon"><UpdateIcon/></Button>
      </DialogTrigger>
      <DialogContent className="sm:max-w-md">
        <DialogHeader>
-         <DialogTitle>Add User Details</DialogTitle>
+         <DialogTitle>Update User Details</DialogTitle>
        </DialogHeader>
     <DetailForm form={form} onSubmit={onSubmit} />
     </DialogContent>
